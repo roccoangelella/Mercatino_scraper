@@ -93,9 +93,4 @@ def main():
 
 
 if __name__ == "__main__":
-    link = input('Inserisci il link di Mercatino Musicale da monitorare: ')
-    scraper = MercatinoScraper(link)
-    scraper.scrape_all_pages()
-    scraper.close_file()
-    print(scraper.newitems)
-
+    main()
