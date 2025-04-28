@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+polars
+numpy
